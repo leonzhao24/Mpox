@@ -9,7 +9,7 @@ def load_data(file_path):
     return pd.read_csv(file_path)
 
 # Assuming the data is already filtered to focus on Austin
-data_path = 'd:/MyProfile/Documents/EXP/BoxData/filtered_monkeypox_tweets_2.csv'
+data_path = '.github/filtered_monkeypox_tweets.csv'
 df = load_data(data_path)
 
 # Header
